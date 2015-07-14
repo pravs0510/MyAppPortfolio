@@ -85,7 +85,13 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
-    }private void capstone(){
+
+    }
+    /*
+    This class is called when the capstone button is clicked
+    $button6 is the id for the capstone button
+     */
+    private void capstone(){
         Button btn1 = (Button) findViewById(R.id.button6);
         btn1.setOnClickListener( new View.OnClickListener() {
             public void onClick(View view) {
